@@ -270,24 +270,24 @@ ls -l /usr/local/cuda-12.3/lib64/libnvJitLink*
 Expected output includes:
 
 ```
-lrwxrwxrwx 1 root root    <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcudnn.so -> libcudnn.so.9
-lrwxrwxrwx 1 root root    <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcudnn.so.9 -> libcudnn.so.9.3.0
--rw-r--r-- 1 root root <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcudnn.so.9.3.0
-lrwxrwxrwx 1 root root    <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcupti.so -> libcupti.so.12
-lrwxrwxrwx 1 root root    <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcupti.so.12 -> libcupti.so.12.3.101
--rw-r--r-- 1 root root <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcupti.so.12.3.101
-lrwxrwxrwx 1 root root    <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcublas.so -> libcublas.so.12
-lrwxrwxrwx 1 root root    <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcublas.so.12 -> libcublas.so.12.3.4.1
--rw-r--r-- 1 root root <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcublas.so.12.3.4.1
-lrwxrwxrwx 1 root root    <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcufft.so -> libcufft.so.11
-lrwxrwxrwx 1 root root    <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcufft.so.11 -> libcufft.so.11.0.12.1
--rw-r--r-- 1 root root <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcufft.so.11.0.12.1
-lrwxrwxrwx 1 root root    <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcusparse.so -> libcusparse.so.12
-lrwxrwxrwx 1 root root    <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcusparse.so.12 -> libcusparse.so.12.3.0.142
--rw-r--r-- 1 root root <size> May 12 2025 /usr/local/cuda-12.3/lib64/libcusparse.so.12.3.0.142
-lrwxrwxrwx 1 root root    <size> May 12 2025 /usr/local/cuda-12.3/lib64/libnvJitLink.so -> libnvJitLink.so.12
-lrwxrwxrwx 1 root root    <size> May 12 2025 /usr/local/cuda-12.3/lib64/libnvJitLink.so.12 -> libnvJitLink.so.12.3.101
--rw-r--r-- 1 root root <size> May 12 2025 /usr/local/cuda-12.3/lib64/libnvJitLink.so.12.3.101
+/usr/local/cuda-12.3/lib64/libcudnn.so -> libcudnn.so.9
+/usr/local/cuda-12.3/lib64/libcudnn.so.9 -> libcudnn.so.9.3.0
+/usr/local/cuda-12.3/lib64/libcudnn.so.9.3.0
+/usr/local/cuda-12.3/lib64/libcupti.so -> libcupti.so.12
+/usr/local/cuda-12.3/lib64/libcupti.so.12 -> libcupti.so.12.3.101
+/usr/local/cuda-12.3/lib64/libcupti.so.12.3.101
+/usr/local/cuda-12.3/lib64/libcublas.so -> libcublas.so.12
+/usr/local/cuda-12.3/lib64/libcublas.so.12 -> libcublas.so.12.3.4.1
+/usr/local/cuda-12.3/lib64/libcublas.so.12.3.4.1
+/usr/local/cuda-12.3/lib64/libcufft.so -> libcufft.so.11
+/usr/local/cuda-12.3/lib64/libcufft.so.11 -> libcufft.so.11.0.12.1
+/usr/local/cuda-12.3/lib64/libcufft.so.11.0.12.1
+/usr/local/cuda-12.3/lib64/libcusparse.so -> libcusparse.so.12
+/usr/local/cuda-12.3/lib64/libcusparse.so.12 -> libcusparse.so.12.3.0.142
+/usr/local/cuda-12.3/lib64/libcusparse.so.12.3.0.142
+/usr/local/cuda-12.3/lib64/libnvJitLink.so -> libnvJitLink.so.12
+/usr/local/cuda-12.3/lib64/libnvJitLink.so.12 -> libnvJitLink.so.12.3.101
+/usr/local/cuda-12.3/lib64/libnvJitLink.so.12.3.101
 ```
 
 #### Step 5: Final Verification
