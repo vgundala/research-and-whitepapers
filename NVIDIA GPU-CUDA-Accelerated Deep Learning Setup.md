@@ -19,6 +19,11 @@ The target system comprises:
 *   **Operating System**: Xubuntu 25.04.
 *   **Software**:
     *   Python 3.12 in a virtual environment (`~/Code/MIT/.tf_env/`).
+    ```Text   
+    (X)ubuntu 25.04 comes with Python 3.13 by default, which is too new for several libraries.
+    Install 3.12 by compiling from source or switch to ubuntu 24.10 which comes with 3.12 by default
+    and has broader support
+    ```
     *   NVIDIA driver 570.133.
     *   CUDA Toolkit 12.3.
     *   cuDNN 9.3.
